@@ -1,0 +1,19 @@
+.container{
+  display:flex;
+  background-color:green;
+  height:1000px;
+  width:700px;
+}
+
+ul {
+list-style-type: none;
+}
+
+.nobullets1{
+  display:flex;
+  flex-direction:column;
+/*   align-content: space-between; */
+  font-size: 60px;
+
+
+}
