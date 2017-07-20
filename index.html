@@ -14,45 +14,47 @@
   <form id="maincalculator">
     <table id="calculatorlayout">
 
-      <thead><button class="number" type="button" value="C">C</button</th>
+      <th><button id="c_button" name="c_button" type="button" value="C">C</button></th>
 
-      <th colspan="3"><div type="text" name="display" id="display" value=""></div></th>
+      <th colspan="3">
+        <div type="text" name="display" id="display" value=""></div>
+      </th>
 
-<!-- Buttons 7, 8, 9 and / are created here... -->
+      <!-- Buttons 7, 8, 9 and / are created here... -->
       <tr class="row1">
-      <td><button class="number" type="button" sum="7">7</button></td>
-      <td><button class="number" type="button" sum="8">8</button></td>
-      <td><button class="number" type="button" sum="9">9</button></td>
-      <td><button class="number" type="button" sum="/">/</button></td>
-    </tr>
-<!-- Buttons 4, 5, 6, and * created here... -->
-    <tr class="row2">
-      <td><button class="number" type="button" sum="4">4</button></td>
-      <td><button class="number" type="button" sum="5">5</button></td>
-      <td><button class="number" type="button" sum="6">6</button></td>
-      <td><button class="number" id="multiplyer" type="button" name="multiplyer" value="*">*</button></td>
-    </tr>
-<!-- Buttons 1, 2, 3, and - are here... -->
-<tr class="row3">
-      <td><button class="number" type="button" sum="1">1</button></td>
-      <td><button class="number" type="button" sum="2">2</button></td>
-      <td><button class="number" type="button" sum="3">3</button></td>
-      <td><button class="number" id="subtractor" type="button" name="subtractor" value="-">-</button></td>
-    </tr>
-<!-- Buttons 0, ., =, and + are here... -->
-    <tr class="row4">
-      <td><button class="number" type="button" value="0">0</button></td>
-      <td><button class="number" type="button" value=".">.</button></td>
-      <td><button type="button" id="equals" value="=">=</button></td>
-      <td><button class="button" id="addition" type="button" name="addition" value="+">+</button></td>
-    </tr>
+        <td><button class="number" type="button" sum="7">7</button></td>
+        <td><button class="number" type="button" sum="8">8</button></td>
+        <td><button class="number" type="button" sum="9">9</button></td>
+        <td><button class="number" type="button" sum="/">/</button></td>
+      </tr>
+      <!-- Buttons 4, 5, 6, and * created here... -->
+      <tr class="row2">
+        <td><button class="number" type="button" sum="4">4</button></td>
+        <td><button class="number" type="button" sum="5">5</button></td>
+        <td><button class="number" type="button" sum="6">6</button></td>
+        <td><button class="number" id="multiplyer" type="button" name="multiplyer" value="*">*</button></td>
+      </tr>
+      <!-- Buttons 1, 2, 3, and - are here... -->
+      <tr class="row3">
+        <td><button class="number" type="button" sum="1">1</button></td>
+        <td><button class="number" type="button" sum="2">2</button></td>
+        <td><button class="number" type="button" sum="3">3</button></td>
+        <td><button class="number" id="subtractor" type="button" name="subtractor" value="-">-</button></td>
+      </tr>
+      <!-- Buttons 0, ., =, and + are here... -->
+      <tr class="row4">
+        <td><button class="number" type="button" value="0">0</button></td>
+        <td><button class="number" type="button" value=".">.</button></td>
+        <td><button type="button" id="equals" value="=">=</button></td>
+        <td><button class="button" id="addition" type="button" name="addition" value="+">+</button></td>
+      </tr>
+    </table>
+  </form>
+
   </table>
-</form>
 
-</table>
-
-<script src="main.js">
-</script>
+  <script src="main.js">
+  </script>
 </body>
 
 </html>
